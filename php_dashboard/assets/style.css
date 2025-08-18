@@ -1,0 +1,4 @@
+body { background: #f5f6fa; }
+.sidebar { min-height: 100vh; border-right: 1px solid #e5e5e5; }
+.sidebar .nav-link.active, .sidebar .nav-link:focus { font-weight: bold; color: #0d6efd !important; }
+.card { box-shadow: 0 2px 8px rgba(0,0,0,0.03); border-radius: 10px; }

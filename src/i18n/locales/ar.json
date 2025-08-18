@@ -1,0 +1,130 @@
+{
+  "common": {
+    "dashboard": "لوحة التحكم",
+    "properties": "العقارات",
+    "tenants": "المستأجرون",
+    "contracts": "العقود",
+    "payments": "المدفوعات",
+    "reports": "التقارير",
+    "settings": "الإعدادات",
+    "search": "بحث",
+    "add": "إضافة",
+    "edit": "تعديل",
+    "delete": "حذف",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "actions": "الإجراءات",
+    "status": "الحالة",
+    "date": "التاريخ",
+    "amount": "المبلغ",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "الهاتف",
+    "address": "العنوان",
+    "description": "الوصف",
+    "loading": "جاري التحميل...",
+    "noData": "لا توجد بيانات متاحة",
+    "error": "خطأ",
+    "success": "نجح",
+    "warning": "تحذير",
+    "info": "معلومات"
+  },
+  "dashboard": {
+    "title": "لوحة التحكم",
+    "totalProperties": "إجمالي العقارات",
+    "occupancyRate": "معدل الإشغال",
+    "monthlyRent": "الإيجار الشهري المحصل",
+    "overduePayments": "المدفوعات المتأخرة",
+    "incomeChart": "الدخل عبر الزمن",
+    "occupancyChart": "اتجاه الإشغال",
+    "upcomingExpiries": "الانتهاءات القادمة",
+    "days30": "30 يوم",
+    "days60": "60 يوم",
+    "days90": "90 يوم"
+  },
+  "properties": {
+    "title": "العقارات",
+    "addProperty": "إضافة عقار",
+    "editProperty": "تعديل العقار",
+    "propertyDetails": "تفاصيل العقار",
+    "buildingName": "اسم المبنى",
+    "unitNumber": "رقم الوحدة",
+    "propertyType": "نوع العقار",
+    "bedrooms": "غرف النوم",
+    "bathrooms": "الحمامات",
+    "area": "المساحة (قدم مربع)",
+    "rentAmount": "مبلغ الإيجار",
+    "status": {
+      "rented": "مؤجر",
+      "available": "متاح",
+      "booked": "محجوز"
+    }
+  },
+  "tenants": {
+    "title": "المستأجرون",
+    "addTenant": "إضافة مستأجر",
+    "editTenant": "تعديل المستأجر",
+    "tenantDetails": "تفاصيل المستأجر",
+    "fullName": "الاسم الكامل",
+    "passportNumber": "رقم جواز السفر",
+    "emiratesId": "الهوية الإماراتية",
+    "contractStart": "تاريخ بداية العقد",
+    "contractEnd": "تاريخ انتهاء العقد",
+    "rentAmount": "مبلغ الإيجار",
+    "securityDeposit": "الوديعة الأمنية"
+  },
+  "contracts": {
+    "title": "العقود",
+    "addContract": "إضافة عقد",
+    "editContract": "تعديل العقد",
+    "contractNumber": "رقم العقد",
+    "startDate": "تاريخ البداية",
+    "endDate": "تاريخ الانتهاء",
+    "rentAmount": "مبلغ الإيجار",
+    "securityDeposit": "الوديعة الأمنية",
+    "status": {
+      "active": "نشط",
+      "expiringSoon": "ينتهي قريباً",
+      "expired": "منتهي الصلاحية"
+    },
+    "uploadDocuments": "رفع المستندات"
+  },
+  "payments": {
+    "title": "المدفوعات",
+    "paymentDate": "تاريخ الدفع",
+    "paymentMethod": "طريقة الدفع",
+    "referenceNumber": "رقم المرجع",
+    "chequeStatus": {
+      "upcoming": "قادم",
+      "cleared": "مسدد",
+      "bounced": "مرتجع"
+    }
+  },
+  "reports": {
+    "title": "التقارير",
+    "dateRange": "نطاق التاريخ",
+    "reportType": "نوع التقرير",
+    "income": "الدخل",
+    "expense": "المصروفات",
+    "vat": "ضريبة القيمة المضافة",
+    "export": "تصدير",
+    "exportPdf": "تصدير PDF",
+    "exportExcel": "تصدير Excel",
+    "exportWord": "تصدير Word"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "roles": "الأدوار والصلاحيات",
+    "theme": "المظهر",
+    "language": "اللغة",
+    "notifications": "الإشعارات",
+    "profile": "الملف الشخصي"
+  },
+  "navigation": {
+    "notifications": "الإشعارات",
+    "profile": "الملف الشخصي",
+    "logout": "تسجيل الخروج",
+    "language": "اللغة"
+  }
+}

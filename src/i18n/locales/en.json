@@ -1,0 +1,130 @@
+{
+  "common": {
+    "dashboard": "Dashboard",
+    "properties": "Properties",
+    "tenants": "Tenants",
+    "contracts": "Contracts",
+    "payments": "Payments",
+    "reports": "Reports",
+    "settings": "Settings",
+    "search": "Search",
+    "add": "Add",
+    "edit": "Edit",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "actions": "Actions",
+    "status": "Status",
+    "date": "Date",
+    "amount": "Amount",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "description": "Description",
+    "loading": "Loading...",
+    "noData": "No data available",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Information"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "totalProperties": "Total Properties",
+    "occupancyRate": "Occupancy Rate",
+    "monthlyRent": "Monthly Rent Collected",
+    "overduePayments": "Overdue Payments",
+    "incomeChart": "Income Over Time",
+    "occupancyChart": "Occupancy Trend",
+    "upcomingExpiries": "Upcoming Expiries",
+    "days30": "30 Days",
+    "days60": "60 Days",
+    "days90": "90 Days"
+  },
+  "properties": {
+    "title": "Properties",
+    "addProperty": "Add Property",
+    "editProperty": "Edit Property",
+    "propertyDetails": "Property Details",
+    "buildingName": "Building Name",
+    "unitNumber": "Unit Number",
+    "propertyType": "Property Type",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "area": "Area (sq ft)",
+    "rentAmount": "Rent Amount",
+    "status": {
+      "rented": "Rented",
+      "available": "Available",
+      "booked": "Booked"
+    }
+  },
+  "tenants": {
+    "title": "Tenants",
+    "addTenant": "Add Tenant",
+    "editTenant": "Edit Tenant",
+    "tenantDetails": "Tenant Details",
+    "fullName": "Full Name",
+    "passportNumber": "Passport Number",
+    "emiratesId": "Emirates ID",
+    "contractStart": "Contract Start Date",
+    "contractEnd": "Contract End Date",
+    "rentAmount": "Rent Amount",
+    "securityDeposit": "Security Deposit"
+  },
+  "contracts": {
+    "title": "Contracts",
+    "addContract": "Add Contract",
+    "editContract": "Edit Contract",
+    "contractNumber": "Contract Number",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "rentAmount": "Rent Amount",
+    "securityDeposit": "Security Deposit",
+    "status": {
+      "active": "Active",
+      "expiringSoon": "Expiring Soon",
+      "expired": "Expired"
+    },
+    "uploadDocuments": "Upload Documents"
+  },
+  "payments": {
+    "title": "Payments",
+    "paymentDate": "Payment Date",
+    "paymentMethod": "Payment Method",
+    "referenceNumber": "Reference Number",
+    "chequeStatus": {
+      "upcoming": "Upcoming",
+      "cleared": "Cleared",
+      "bounced": "Bounced"
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "dateRange": "Date Range",
+    "reportType": "Report Type",
+    "income": "Income",
+    "expense": "Expense",
+    "vat": "VAT",
+    "export": "Export",
+    "exportPdf": "Export PDF",
+    "exportExcel": "Export Excel",
+    "exportWord": "Export Word"
+  },
+  "settings": {
+    "title": "Settings",
+    "roles": "Roles & Permissions",
+    "theme": "Theme",
+    "language": "Language",
+    "notifications": "Notifications",
+    "profile": "Profile"
+  },
+  "navigation": {
+    "notifications": "Notifications",
+    "profile": "Profile",
+    "logout": "Logout",
+    "language": "Language"
+  }
+}
