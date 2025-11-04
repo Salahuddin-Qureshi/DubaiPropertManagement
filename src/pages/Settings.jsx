@@ -49,7 +49,19 @@ const Settings = () => {
       items: [
         { label: 'Email Notifications', value: 'Enabled', type: 'toggle' },
         { label: 'SMS Notifications', value: 'Disabled', type: 'toggle' },
-        { label: 'Contract Expiry Alerts', value: '30 days', type: 'select' },
+        {
+          label: 'Contract Expiry Alerts',
+          type: 'select',
+          value: '30 days',
+          options: [
+            { value: '7 days', label: '7 days' },
+            { value: '15 days', label: '15 days' },
+            { value: '30 days', label: '30 days' },
+            { value: '60 days', label: '60 days' },
+            { value: '90 days', label: '90 days' }
+          ],
+          onChange: (value) => console.log('Contract expiry alerts set to:', value)
+        },
       ]
     },
     {
@@ -121,10 +133,10 @@ const Settings = () => {
                           {item.type === 'select' ? (
                             <Select
                               value={item.value}
-                              onChange={(e) => item.onChange(e.target.value)}
+                              onChange={(e) => item.onChange && item.onChange(e.target.value)}
                               className="w-48"
                             >
-                              {item.options.map((option) => (
+                              {item.options && item.options.map((option) => (
                                 <option key={option.value} value={option.value}>
                                   {option.label}
                                 </option>
